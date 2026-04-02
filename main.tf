@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "NAVEEN-INFRA" {
 	ami = "ami-01b14b7ad41e17ba4" 
-	instance_type = "t3.micro"
+	instance_type = "t3.small"
 }
