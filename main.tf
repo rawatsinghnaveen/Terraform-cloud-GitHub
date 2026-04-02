@@ -3,7 +3,7 @@ terraform {
     required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.0"
+      version = "~> 6.39.0"
      }
     }
    }
@@ -14,6 +14,6 @@ provider "aws" {
 	}
 
 resource "aws_instance" "NAVEEN-INFRA" {
-	ami = "ami-0c2b8ca1dad447f8a" 
-	instance_type = "t2.micro"
+	ami = "ami-01b14b7ad41e17ba4" 
+	instance_type = "t3.micro"
 }
